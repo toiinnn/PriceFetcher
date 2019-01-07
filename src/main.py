@@ -36,6 +36,7 @@ def main():
     print("-" * 80)
     print("R$ {:>10.2f}\tTOTAL".format(total_price))
     print("R$ {:>10.2f}\tTOTAL W/ CARD TAX (15% +/-)".format(total_price * 1.15))
+    print("Just trying something")
     data["TOTAL"] = total_price
     data["TOTAL W/ TAXES (15%)"] = total_price * 1.15
 
